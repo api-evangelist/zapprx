@@ -1,4 +1,16 @@
 aid: zapprx
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zapprx.png
 name: ZappRx *
 description: 'ZappRx * is a company surfaced as a portfolio company of gv and added to the API Evangelist
   network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting the enrichment
@@ -12,7 +24,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-probe:
+  date: '2026-07-21'
+  website: http://zapprx.com
+  dns: SERVFAIL
+  http_status: 000
+  note: Domain does not resolve (SERVFAIL). No live website, developer portal, docs,
+    or API surface reachable. ZappRx no longer operates as an independent entity; no
+    public API to enrich.
 tags:
 - Company
 - Life Sciences
@@ -25,3 +45,8 @@ maintainers:
 common:
 - type: Website
   url: http://zapprx.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
